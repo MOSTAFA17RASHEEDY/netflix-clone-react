@@ -69,9 +69,13 @@ This project is licensed under the MIT License.
 - **React Router DOM** for routing functionality.
 
 ---
-
+### Images from the website
 ![Screenshot of Netflix Clone](./src/assets/netflix%20clone.png)
 ![Screenshot of Netflix Clone](./src/assets/netflix%20login.png)
 ![Screenshot of Netflix Clone](./src/assets/player%20netflix.png)
 
+---
+### Live Link
+- https://mostafaio-netflex.netlify.app/login
+  
 If you find this project helpful, don't forget to star the repository!
