@@ -1,0 +1,44 @@
+footer {
+  margin: 4rem 10rem;
+}
+.icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.icon {
+  font-size: 3rem;
+  transition: ease-in-out 0.5s;
+}
+.services {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  color: rgba(214, 214, 214, 0.862);
+  transition: ease-in-out 0.5s;
+}
+
+.service {
+  cursor: pointer;
+}
+.service:hover {
+  color: white;
+}
+@media (min-width: 320px) and (max-width: 720px) {
+  .icon {
+    font-size: 2rem;
+  }
+  .services {
+    grid-template-columns: auto auto;
+  }
+  footer {
+    margin: 2rem 5rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+}

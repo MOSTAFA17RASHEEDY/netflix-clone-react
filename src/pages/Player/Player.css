@@ -1,0 +1,44 @@
+.player {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.player i {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  width: 50px;
+  transition: ease-in-out 0.5s;
+}
+.player iframe {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: ease-in-out 0.5s;
+}
+
+.playerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  transition: ease-in-out 0.5s;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .player iframe {
+    margin: 1.5rem;
+  }
+  .player i {
+    top: 35px;
+    left: 40px;
+    color: black;
+  }
+  .playerInfo {
+    margin-bottom: 1rem;
+  }
+}

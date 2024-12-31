@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 8.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.093);
+  transition: ease-in-out 0.5s;
+}
+.right-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.NavImg {
+  width: 11.5rem;
+  object-fit: contain;
+  transition: ease-in-out 0.5s;
+}
+
+.left-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.sign-btn {
+  width: 5rem;
+  height: 2rem;
+  background: #ff4646;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.sign-btn:hover {
+  background: #ea3838;
+}
+.search {
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .navbar {
+    padding: 0.5rem 2rem;
+  }
+  .NavImg {
+    width: 7.5rem;
+    object-fit: contain;
+  }
+  .sign-btn {
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 0.7rem;
+  }
+  .search {
+    font-size: 0.7rem;
+  }
+}

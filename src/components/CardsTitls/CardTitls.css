@@ -1,0 +1,62 @@
+.titleCards {
+  margin: 1rem 4rem;
+  border-radius: 3rem;
+}
+
+.titleCards h2 {
+  margin-bottom: 1rem;
+}
+
+.cardList {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: scroll;
+}
+.cardList::-webkit-scrollbar {
+  height: 8px;
+  margin-top: 1rem;
+}
+.cardList::-webkit-scrollbar-thumb {
+  background-color: #b3001b;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #b3001b,
+    transparent
+  );
+}
+
+.cardList::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.card img {
+  margin-bottom: 0.3rem;
+  width: 12rem;
+  height: 100%;
+  object-fit: contain;
+}
+.card p {
+  font-size: 1rem;
+}
+@media (min-width: 320px) and (max-width: 550px) {
+  .titleCards h2 {
+    font-size: 1.5rem;
+  }
+  .card {
+    width: 80%;
+    height: 80%;
+  }
+}
